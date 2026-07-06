@@ -203,7 +203,7 @@ rag_bot = ContextChatEngine(
 
 
 # ---------------- HEADER ----------------
-col1, col2, col3 = st.columns([2, 1, 2])
+col1, col2, col3 = st.columns([2, 1.2, 1.8])
 
 with col2:
     st.markdown("<div style='margin-left:10px;'>", unsafe_allow_html=True)
