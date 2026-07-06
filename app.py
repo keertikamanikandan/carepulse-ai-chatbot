@@ -37,6 +37,7 @@ section[data-testid="stSidebar"] * {
     color: #1565C0;
     font-size: 44px;
     font-weight: 800;
+    margin-top: -20px;
     margin-bottom: 2px;
 }
 
