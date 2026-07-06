@@ -208,7 +208,7 @@ col1, col2, col3 = st.columns([2, 1, 2])
 with col2:
     st.markdown(
         """
-        <div style="padding-left:70px;">
+        <div style="padding-left:90px;">
         """,
         unsafe_allow_html=True
     )
