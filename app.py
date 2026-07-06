@@ -208,12 +208,12 @@ col1, col2, col3 = st.columns([2, 1, 2])
 with col2:
     st.markdown(
         """
-        <div style="padding-left:90px;">
+        <div style="padding-left:100px;">
         """,
         unsafe_allow_html=True
     )
 
-    st.image("image/logo.jpg", width=250)
+    st.image("image/logo.jpg", width=260)
 
     st.markdown("</div>", unsafe_allow_html=True)
 
