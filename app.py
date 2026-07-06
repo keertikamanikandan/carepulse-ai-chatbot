@@ -74,14 +74,25 @@ section[data-testid="stSidebar"] * {
 }
 
 [data-testid="stChatInput"] textarea {
-    color: #0F172A !important;
+    color: #000000 !important;
 }
 
+/* User and Assistant Messages */
 [data-testid="stChatMessage"] {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.95);
     border: 1px solid #DBEAFE;
     border-radius: 16px;
     padding: 10px;
+    color: #000000 !important;
+}
+
+[data-testid="stChatMessage"] * {
+    color: #000000 !important;
+}
+
+/* Markdown text inside chat */
+.stMarkdown {
+    color: #000000 !important;
 }
 
 .stButton > button {
