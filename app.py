@@ -202,16 +202,19 @@ rag_bot = ContextChatEngine(
 
 
 # ---------------- HEADER ----------------
-col1, col2, col3 = st.columns([1, 1, 1])
+# ---------------- HEADER ----------------
+col1, col2, col3 = st.columns([2, 1, 2])
 
 with col2:
     st.markdown(
         """
-        <div style="padding-left:45px;">
+        <div style="padding-left:50px;">
         """,
         unsafe_allow_html=True
     )
+
     st.image("image/logo.jpg", width=220)
+
     st.markdown("</div>", unsafe_allow_html=True)
 
 st.markdown("<div class='main-title'>CarePulse AI</div>", unsafe_allow_html=True)
