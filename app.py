@@ -206,7 +206,7 @@ rag_bot = ContextChatEngine(
 col1, col2, col3 = st.columns([2, 1, 2])
 
 with col2:
-    st.markdown("<div style='margin-left:25px;'>", unsafe_allow_html=True)
+    st.markdown("<div style='margin-left:10px;'>", unsafe_allow_html=True)
     st.image("image/logo.jpg", width=220)
     st.markdown("</div>", unsafe_allow_html=True)
 
