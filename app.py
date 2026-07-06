@@ -213,7 +213,7 @@ with col2:
         unsafe_allow_html=True
     )
 
-    st.image("image/logo.jpg", width=260)
+    st.image("image/logo.jpg", width=220)
 
     st.markdown("</div>", unsafe_allow_html=True)
 
